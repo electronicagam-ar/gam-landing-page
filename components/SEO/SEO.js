@@ -52,20 +52,20 @@ const SEO = ({ title, description, keywords }) => {
             <link
                 rel="icon"
                 type="image/png"
-                sizes="32x32"
-                href="/favicon-32x32.png"
+                sizes="96x96"
+                href="/favicon-96x96.png"
             />
             <link
                 rel="icon"
-                type="image/png"
-                sizes="16x16"
-                href="/favicon-16x16.png"
+                type="image/svg+xml"
+                sizes="any"
+                href="/favicon.svg"
             />
-            <link rel="manifest" href="/site.webmanifest" />
             <link
-                rel="mask-icon"
-                href="/safari-pinned-tab.svg"
-                color="#5bbad5"
+                rel="icon"
+                type="image/x-icon"
+                sizes="any"
+                href="/favicon.ico"
             />
             {/* Title */}
             <title>{title}</title>

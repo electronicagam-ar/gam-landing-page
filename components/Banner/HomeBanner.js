@@ -15,15 +15,14 @@ export const HomeBanner = () => {
 
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Service Electrónico GAM
+                        Especialistas en Reparación TVs de Última Generación
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Especialistas en reparación y servicio técnico para
-                            TVs de última generación{" "}
+                            SMART - LED - LCD - OLED - QLED - 4K {" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">

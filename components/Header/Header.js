@@ -19,7 +19,7 @@ export const Header = () => {
                             <Image
                                 src="/Logo_GAM.jpg"
                                 alt="logo"
-                                className="h-18 w-auto"
+                                className="h-18 w-18"
                                 height="100"
                                 width="100"
                                 priority

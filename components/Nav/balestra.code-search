@@ -1,0 +1,12 @@
+# Query: balestra
+# ContextLines: 1
+
+2 resultados - 1 archivo
+
+components/Footer/Footer.js:
+  133                                  className="transition-colors duration-300 hover:underline"
+  134:                                 href="https://www.linktr.ee/electronicagam"
+  135                                  target="_blank"
+  136                              >
+  137:                                 Electrónica GAM.
+  138                              </Link>

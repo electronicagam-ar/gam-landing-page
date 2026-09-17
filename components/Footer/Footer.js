@@ -134,7 +134,7 @@ export const Footer = () => {
                                 href="https://www.linktr.ee/Electronicagam"
                                 target="_blank"
                             >
-                                Electrónica GAM.
+                                *Electrónica GAM*.
                             </Link>
                         </span>
                     </p>

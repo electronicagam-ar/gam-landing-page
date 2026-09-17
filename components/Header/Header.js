@@ -20,8 +20,8 @@ export const Header = () => {
                                 src="/Logo_GAM.jpg"
                                 alt="logo"
                                 className="h-8 w-auto"
-                                height="100"
-                                width="100"
+                                height="150"
+                                width="150"
                                 priority
                             />
                         </Link>

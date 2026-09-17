@@ -131,10 +131,10 @@ export const Footer = () => {
                             Web made by{" "}
                             <Link
                                 className="transition-colors duration-300 hover:underline"
-                                href="https://www.linkedin.com/in/jeronimo-balestra/"
+                                href="https://www.linktr.ee/Electronicagam"
                                 target="_blank"
                             >
-                                Jerónimo Balestra.
+                                Electrónica GAM.
                             </Link>
                         </span>
                     </p>

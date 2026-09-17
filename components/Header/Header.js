@@ -17,7 +17,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/logo_GAM.jpg"
+                                src="/Logo_GAM.jpg"
                                 alt="logo"
                                 className="h-8 w-auto"
                                 height="100"

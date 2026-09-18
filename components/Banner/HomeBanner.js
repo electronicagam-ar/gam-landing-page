@@ -36,7 +36,7 @@ export const HomeBanner = () => {
                                 rel="noopener noreferrer"
                                 className="btn btn--secondary ml-4"
                             >
-                                Contáctanos
+                                Pedí tu Presupuesto por Whatsapp
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>

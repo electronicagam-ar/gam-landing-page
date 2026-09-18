@@ -15,7 +15,7 @@ export const HomeBanner = () => {
 
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Especialista en Reparación Televisores de Última Generación
+                        Reparación de Televisores de Última Generación
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}

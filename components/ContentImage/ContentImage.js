@@ -14,7 +14,7 @@ const ContentImageData = [
     },
     {
         id: uuid(),
-        title: "Trabajamos con las principales marcas del mercado"
+        title: "Trabajamos con todas las marcas del mercado"
         ,
         content:
             "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.",

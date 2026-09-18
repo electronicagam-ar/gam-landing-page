@@ -47,9 +47,9 @@ const SEO = ({ title, description, keywords }) => {
             
             <link
                 rel="icon"
-                type="image/x-icon"
+                type="image/jpg"
                 sizes="any"
-                href="/favicon.ico"
+                href="/icono-gam.jpg"
             />
             {/* Title */}
             <title>{title}</title>

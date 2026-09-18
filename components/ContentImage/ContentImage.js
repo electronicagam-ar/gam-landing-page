@@ -6,14 +6,18 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Presupuestos sin cargo",
-        content:
-            "Diagnosticamos tu TV sin cargo y te damos un presupuesto sin compromiso. Si no te convence, no pagas nada. ¡Así de simple!",
-            title: "Realizamos Informes Técnicos para Seguros",
-            content: 
-            "Realizamos Informes Técnicos para las diferentes Compañías de Seguros del País",
-        align: "left",
-        image: "/hero.jpg"
+    title: "Presupuestos sin cargo",
+    content:
+        "Diagnosticamos tu TV sin cargo y te damos un presupuesto sin compromiso. Si no te convence, no pagás nada.",
+    align: "left",
+    image: "/hero.jpg"
+},
+{
+    id: uuid(),
+    title: "Informes Técnicos para Seguros",
+    content:
+        "Realizamos informes técnicos detallados para las diferentes compañías de seguros del país en caso de siniestros o descargas eléctricas.",
+    align: "center",
     },
     {
         id: uuid(),

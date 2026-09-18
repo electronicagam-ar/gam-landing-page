@@ -46,7 +46,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
                        <Image
-  src="/hero1.jpg" // CAMBIA .jpg por .png si tu foto nueva es .png
+  src="/taller.jpg" // CAMBIA .jpg por .png si tu foto nueva es .png
   width={1024}
   height={680}
   alt="Taller de Electrónica GAM"

@@ -10,7 +10,7 @@ const ContentImageData = [
         content:
             "Diagnosticamos tu TV sin cargo y te damos un presupuesto sin compromiso. Si no te convence, no pagas nada. ¡Así de simple!",
         align: "left",
-        image: "/budget.jpg"
+        image: "/hero.jpg"
     },
     {
         id: uuid(),

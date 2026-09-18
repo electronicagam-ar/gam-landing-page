@@ -51,7 +51,7 @@ export default function Home({ places }) {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Más de 20 años de experiencia en el rubro
+                                Más de 30 años de experiencia en el rubro
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>

@@ -9,6 +9,9 @@ const ContentImageData = [
         title: "Presupuestos sin cargo",
         content:
             "Diagnosticamos tu TV sin cargo y te damos un presupuesto sin compromiso. Si no te convence, no pagas nada. ¡Así de simple!",
+            title: "Realizamos Informes Técnicos para Seguros",
+            content: 
+            "Realizamos Informes Técnicos para las diferentes Compañías de Seguros del País",
         align: "left",
         image: "/hero.jpg"
     },
@@ -17,8 +20,7 @@ const ContentImageData = [
         title: "Trabajamos con todas las marcas del mercado"
         ,
         content:
-            "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV."
-            Realizamos Informes Técnicos para las diferentes Compañías de Seguros del País,
+            "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.",
         align: "right",
         image: "/tv-brands.png"
     },

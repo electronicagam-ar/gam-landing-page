@@ -22,7 +22,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Más de 25 Años de Experiencia. Reparamos SMART Tvs, LED, LCD, OLED, QLED, 4K.
+                            Más de 30 Años de Experiencia. Reparamos SMART Tvs, LED, LCD, OLED, QLED, 4K.
                             Presupuesto sin Cargo {" "}
                         </p>
                     </Content>

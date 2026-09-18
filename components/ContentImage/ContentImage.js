@@ -18,7 +18,7 @@ const ContentImageData = [
     content:
         "Realizamos informes técnicos detallados para las diferentes compañías de seguros del país en caso de siniestros o descargas eléctricas.",
     align: "right",
-    image: "/IT.jpg" 
+    image: "/IT.jpeg" 
     },
     {
         id: uuid(),

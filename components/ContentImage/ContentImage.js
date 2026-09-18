@@ -17,7 +17,8 @@ const ContentImageData = [
         title: "Trabajamos con todas las marcas del mercado"
         ,
         content:
-            "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.",
+            "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV."
+            Realizamos Informes Técnicos para las diferentes Compañías de Seguros del País,
         align: "right",
         image: "/tv-brands.png"
     },

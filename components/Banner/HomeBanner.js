@@ -10,17 +10,17 @@ import Image from "next/image";
 
 export const HomeBanner = () => {
     return (
-        <SectionContainer className="page-banner--container py-10">
+        <SectionContainer className="page-banner--container py-16 bg-[#004a8c]">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
 
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-                    <PageTitle className="text-center mx-auto" type="heavy">
+                    <PageTitle className="text-center mx-auto text-white" type="heavy">
                         Reparación de Televisores de Última Generación
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
-                    <Content className="text-center" alignment="center">
+                    <Content alignment="center" className="text-center text-white">
                         <p>
                             Más de 30 Años de Experiencia. Reparamos SMART Tvs, LED, LCD, OLED, QLED, 4K.
                             Presupuesto sin Cargo {" "}

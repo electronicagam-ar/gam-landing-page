@@ -16,13 +16,13 @@ export const Header = () => {
           <h1 className="logo mb-0">
             <Link href="/">
               <Image
-                src="/Logo_GAM.jpg"
-                alt="logo"
-                className="h-16 w-32 object-contain"
-                height="100"
-                width="280"
-                priority
-              />
+  src="/Logo_GAM.jpg"
+  alt="logo"
+  className="h-16 w-32 object-contain"
+  height="253" // Updated with the correct height
+  width="512"  // Updated with the correct width
+  priority
+/>
             </Link>
           </h1>
         </div>

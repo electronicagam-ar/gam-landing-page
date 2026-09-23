@@ -13,7 +13,7 @@ export const Header = () => {
           <h1 className="logo mb-0">
             <Link href="/">
               <Image
-                src="/Logo_GAM.jpg"
+                src="/logo_GAM.jepg"
                 alt="logo"
                 className="h-16 w-auto object-contain"
                 height={100}

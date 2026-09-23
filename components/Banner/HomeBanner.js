@@ -18,7 +18,7 @@ export const HomeBanner = () => {
                         Reparación de Televisores de Última Generación
                     </PageTitle>
                 </MotionBTTContainer>
-                {/* Appear Third */}
+                
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content alignment="center" className="text-center text-white">
                         <p>
@@ -34,19 +34,19 @@ export const HomeBanner = () => {
                                 href={links.whatsapp}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="btn btn--secondary ml-4"
+                                className="bg-blue-500 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-600 transition-all flex items-center justify-center gap-2 ml-4 shadow-md"
                             >
                                 Pedí tu Presupuesto por Whatsapp
-                                <Icon icon="material-symbols:arrow-forward-rounded" />
+                                <Icon icon="material-symbols:arrow-forward-rounded" className="text-xl" />
                             </a>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
-                {/* Appear Fourth */}
+                
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-                    <div className="page-banner--image relative w-full max-w-4xl mx-auto h-[400px] md:h-[600px] overflow-hidden rounded-xl">
+                    <div className="page-banner--image relative w-full max-w-4xl mx-auto h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-2xl">
                         <Image
-                            src="/taller.jpg" 
+                            src="/taller.png" 
                             alt="Taller de Electrónica GAM"
                             fill
                             style={{ objectFit: 'cover' }}

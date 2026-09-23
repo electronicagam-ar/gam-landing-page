@@ -30,7 +30,7 @@ export default function DondeEstamos() {
                         <Content alignment="center" className="text-center mb-10">
                             <p>
                                 Estamos en <strong>Santa Fe Capital, Argentina</strong>.
-                                
+                            <p>   
                                 Encontranos fácil siguiendo el mapa de abajo.
                             </p>
                         </Content>

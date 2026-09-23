@@ -68,6 +68,21 @@ export const Footer = () => {
                                         priority
                                     />
                                 </Link>
+
+                                {/* Ubicación */}
+                                <Link
+                                    href="/donde-estamos"
+                                    className="flex items-start gap-2 text-sm font-medium text-gray-600 hover:text-[#004a8c] transition-colors"
+                                >
+                                    <Icon
+                                        icon="material-symbols:location-on-outline-rounded"
+                                        className="text-xl mt-0.5 shrink-0"
+                                    />
+                                    <span>
+                                        Dr. Zavalla 2519, Santa Fe Capital, Argentina
+                                    </span>
+                                </Link>
+
                                 {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">
                                     <a
@@ -126,7 +141,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} GAM Electronica. All rights reserved{" - "}
+                        ©️ {year} GAM Electronica. All rights reserved{" - "}
                         <span className="font-normal">
                             Web made by{" "}
                             <Link

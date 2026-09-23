@@ -46,7 +46,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image relative w-full max-w-4xl mx-auto h-[400px] md:h-[600px] overflow-hidden rounded-xl">
                         <Image
-                            src="/taller.png" 
+                            src="/taller.jpg" 
                             alt="Taller de Electrónica GAM"
                             fill
                             style={{ objectFit: 'cover' }}

@@ -44,18 +44,17 @@ export const HomeBanner = () => {
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-          <div className="page-banner--image">
-            <Image
-              src="/taller.png" 
-              width={1024}
-              height={680}
-              alt="Taller de Electrónica GAM"
-              objectFit="cover"
-              className="mx-auto rounded-xl"
-              priority={true}
-            />
-          </div>
-        </MotionBTTContainer>
+                    <div className="page-banner--image relative w-full max-w-4xl mx-auto h-[400px] md:h-[600px] overflow-hidden rounded-xl">
+                        <Image
+                            src="/taller.png" 
+                            alt="Taller de Electrónica GAM"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                            priority={true}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                    </div>
+                </MotionBTTContainer>
             </SectionContainer>
         </SectionContainer>
     );

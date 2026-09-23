@@ -65,7 +65,8 @@ export default function DondeEstamos() {
                                 <h2 className="text-lg font-bold text-[#004a8c] mb-2">
                                     Ubicación
                                 </h2>
-                                <p className="mb-0">Santa Fe Capital, Argentina</p>
+                                <p className="mb-0">Dr. Zavalla 2519 (3000)
+                                                  Santa Fe Capital, Argentina</p>
                             </div>
                         </div>
                     </MotionBTTContainer>

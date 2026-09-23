@@ -23,7 +23,7 @@ const SEO = ({ title, description, keywords }) => {
             <meta name="keywords" content={metaKeywords} />
             {/* { Twitter } */}
             <meta
-                name="twitte:card"
+                name="twitter:card"
                 content="summary_large_image"
                 key="twcard"
             />
@@ -36,7 +36,7 @@ const SEO = ({ title, description, keywords }) => {
             {/* {Open Graph} */}
             <meta property="og:url" content={siteURL} key="ogurl" />
             <meta property="og:image" content={imagePreview} key="ogimage" />
-            <meta property="og:site_name" content={siteURL} key="ogsitename" />
+            <meta property="og:site_name" content="GAM Electrónica" key="ogsitename" />
             <meta property="og:title" content={title} key="ogtitle" />
             <meta
                 property="og:description"

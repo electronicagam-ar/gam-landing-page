@@ -1,14 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
-import { SectionContainer } from "@components/Section";
-import { Nav } from "@components/Nav";
-import { ButtonGroup, Button } from "@components/Button";
-import { Icon } from "@iconify/react";
-import { links } from "@utils/links";
-
-export const Header = () => {
-  return (
-    import Link from 'next/link';
+import Link from 'next/link';
 import Image from 'next/image';
 import { SectionContainer } from "@components/Section";
 import { links } from "@utils/links";
@@ -26,15 +16,15 @@ export const Header = () => {
                 src="/Logo_GAM.jpg"
                 alt="logo"
                 className="h-16 w-auto object-contain"
-                height="100"
-                width="280"
+                height={100}
+                width={280}
                 priority
               />
             </Link>
           </h1>
         </div>
 
-        {/* Sector Derecho: Menú y Botón (Añadimos text-white para que los menús sean blancos) */}
+        {/* Sector Derecho: Menú y Botón */}
         <div className="flex items-center gap-8 text-white font-medium">
           <Link href="/servicios" className="hover:text-gray-200 transition-colors">Servicios</Link>
           <Link href="/clientes" className="hover:text-gray-200 transition-colors">Clientes</Link>

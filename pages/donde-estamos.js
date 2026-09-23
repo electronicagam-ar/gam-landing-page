@@ -1,3 +1,5 @@
+// pages/donde-estamos.js
+
 import Head from "next/head";
 import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
@@ -39,9 +41,9 @@ export default function DondeEstamos() {
                         {/* Si el mapa no cae justo en el local, reemplazá el src por el
                             que te da Google Maps en Compartir > Insertar un mapa desde
                             tu ficha de negocio. */}
-                        <div className="relative w-full max-w-4xl mx-auto h-[350px] md:h-[450px] rounded-xl overflow-hidden shadow-2xl mb-12">
+                        <div className="relative w-full max-w-4xl mx-auto h-[350px] md:h-[450px] rounded-xl overflow-hidden shadow-2xl mb-12 border border-gray-200">
                             <iframe
-                                src="https://www.google.com/maps?q=GAM+Electronica,+Santa+Fe+Capital,+Argentina&output=embed"
+                                src="https://www.google.com/maps?q=GAM+Electronica,+Dr.+Zavalla+2519,+Santa+Fe+Capital,+Argentina&output=embed"
                                 className="absolute top-0 left-0 w-full h-full border-0"
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
@@ -81,7 +83,7 @@ export default function DondeEstamos() {
                                 className="bg-[#004a8c] text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2 shadow-md"
                             >
                                 Cómo llegar
-                                <Icon icon="material-symbols:map-outline-rounded" className="text-xl" />
+                                <Icon icon="material-symbols:arrow-forward-rounded" className="text-xl" />
                             </a>
                             <a
                                 href={links.whatsapp}

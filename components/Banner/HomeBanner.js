@@ -44,18 +44,18 @@ export const HomeBanner = () => {
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-                    <div className="page-banner--image">
-                       <Image
-  src="/Taller.jpg" // CAMBIA .jpg por .png si tu foto nueva es .png
-  width={1024}
-  height={680}
-  alt="Taller de Electrónica GAM"
-  objectFit="cover"
-  className="mx-auto rounded-xl"
-  priority={true} // Esto le dice a Next.js que la cargue primero
-/>
-                    </div>
-                </MotionBTTContainer>
+          <div className="page-banner--image">
+            <Image
+              src="/taller.png" 
+              width={1024}
+              height={680}
+              alt="Taller de Electrónica GAM"
+              objectFit="cover"
+              className="mx-auto rounded-xl"
+              priority={true}
+            />
+          </div>
+        </MotionBTTContainer>
             </SectionContainer>
         </SectionContainer>
     );

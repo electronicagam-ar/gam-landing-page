@@ -16,13 +16,14 @@ const nextConfig = {
         formats: ["image/avif", "image/webp"],
         domains: ["s.gravatar.com", "lh3.googleusercontent.com"]
     },
-    env: {
-        siteTitle: "Your Company",
-        siteDescription: "Your company description.",
-        siteKeywords: "your company keywords",
-        siteUrl: "You site url",
+        env: {
+        siteTitle: "GAM Electrónica",
+        siteDescription: "Reparación de Smart TVs LED, LCD, OLED, QLED y 4K en Santa Fe Capital. Más de 25 años de experiencia. Presupuesto sin cargo.",
+        siteKeywords: "reparación de tv santa fe, service smart tv santa fe, reparación led oled qled, electrónica gam",
+        siteUrl: "https://www.electronicagam.com.ar",
         siteImagePreviewUrl: "/images/preview.jpeg",
-        twitterHandle: "@your_handle"
+        twitterHandle: "@electronicagam"
+    },
     },
     headers() {
         return [

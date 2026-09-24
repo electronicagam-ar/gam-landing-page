@@ -22,7 +22,6 @@ const nextConfig = {
         siteKeywords: "reparación de tv santa fe, service smart tv santa fe, reparación led oled qled, electrónica gam",
         siteUrl: "https://www.electronicagam.com.ar",
         siteImagePreviewUrl: "/images/preview.jpeg",
-        twitterHandle: "@electronicagam"
     },
     },
     headers() {

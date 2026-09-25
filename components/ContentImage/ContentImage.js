@@ -28,14 +28,6 @@ const ContentImageData = [
             "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.",
         align: "right",
         image: "/tv-brands.png"
-    },
-    {
-        id: uuid(),
-        title: "Garantía de 3 meses",
-        content:
-            "Todos nuestros trabajos vienen respaldados por una garantía de 3 meses, lo que proporciona a nuestros clientes confianza y seguridad en sus reparaciones.",
-        align: "left",
-        image: "/handshake.jpg"
     }
 ];
 

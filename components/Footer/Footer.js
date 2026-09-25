@@ -25,22 +25,26 @@ const DATA = [
             {
                 label: "Email",
                 href: links.email,
-                target: "_blank"
+                target: "_blank",
+                icon: "mdi:email-outline"
             },
             {
                 label: "Facebook",
                 href: links.facebook,
-                target: "_blank"
+                target: "_blank",
+                icon: "mdi:facebook"
             },
             {
                 label: "Instagram",
                 href: links.instagram,
-                target: "_blank"
+                target: "_blank",
+                icon: "mdi:instagram"
             },
             {
                 label: "WhatsApp",
                 href: links.whatsapp,
-                target: "_blank"
+                target: "_blank",
+                icon: "ic:baseline-whatsapp"
             }
         ]
     }
@@ -116,7 +120,7 @@ export const Footer = () => {
                                                         className="footer-menu--list-item gap-2"
                                                     >
                                                         <a
-                                                            className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                            className="mb-2 flex items-center gap-1.5 w-auto font-medium transition-colors duration-300 hover:underline"
                                                             href={
                                                                 footerItem.href
                                                             }
@@ -124,6 +128,12 @@ export const Footer = () => {
                                                                 footerItem.target
                                                             }
                                                         >
+                                                            {footerItem.icon && (
+                                                                <Icon
+                                                                    icon={footerItem.icon}
+                                                                    className="text-lg"
+                                                                />
+                                                            )}
                                                             {footerItem.label}
                                                         </a>
                                                     </li>

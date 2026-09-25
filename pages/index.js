@@ -3,6 +3,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
+import { FeatureIcons } from "@components/FeatureIcons";
 import { Columns } from "@components/Columns";
 import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
@@ -36,6 +37,7 @@ export default function Home({ places }) {
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
                 <HomeBanner />
+                <FeatureIcons />
                 {/* Components Container */}
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
                     {/* Servicios */}

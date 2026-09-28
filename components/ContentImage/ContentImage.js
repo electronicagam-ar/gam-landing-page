@@ -76,7 +76,7 @@ export const ContentImage = () => {
             ))}
 
             {/* Marcas: tira animada en vez de la imagen estática */}
-            <div className="text-center">
+            <div className="text-center min-w-0 w-full max-w-full overflow-hidden [contain:inline-size]">
                 <h3 className="mb-6 h4 md:h3 font-semibold text-black">
                     Trabajamos con todas las marcas del mercado
                 </h3>

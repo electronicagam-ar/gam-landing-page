@@ -36,7 +36,7 @@ export const MotionInfiniteImage = () => {
             <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent z-10" />
 
             <motion.div
-                className="flex items-center gap-12 w-max"
+                className="flex items-center w-max"
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{
                     duration: 30,
@@ -47,7 +47,7 @@ export const MotionInfiniteImage = () => {
                 {loopBrands.map((brand, i) => (
                     <div
                         key={`${brand.name}-${i}`}
-                        className="flex items-center justify-center h-12 w-28 shrink-0 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+                        className="flex items-center justify-center h-12 w-28 shrink-0 mx-6 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
                     >
                         <Image
                             src={`/brands/${brand.file}`}

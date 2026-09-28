@@ -7,3 +7,4 @@
 **/
 
 export * from "@components/Motion/MotionBTTContainer";
+export { MotionInfiniteImage } from "./MotionInfiniteImage";

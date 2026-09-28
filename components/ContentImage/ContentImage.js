@@ -2,6 +2,7 @@ import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { v4 as uuid } from "uuid";
+import { MotionInfiniteImage } from "@components/Motion";
 
 const ContentImageData = [
     {
@@ -19,15 +20,6 @@ const ContentImageData = [
         "Realizamos informes técnicos detallados para las diferentes compañías de seguros del país en caso de siniestros o descargas eléctricas.",
     align: "right",
     image: "/IT.jpeg" 
-    },
-    {
-        id: uuid(),
-        title: "Trabajamos con todas las marcas del mercado"
-        ,
-        content:
-            "Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.",
-        align: "right",
-        image: "/tv-brands.png"
     }
 ];
 
@@ -82,6 +74,17 @@ export const ContentImage = () => {
                     </div>
                 </div>
             ))}
+
+            {/* Marcas: tira animada en vez de la imagen estática */}
+            <div className="text-center">
+                <h3 className="mb-6 h4 md:h3 font-semibold text-black">
+                    Trabajamos con todas las marcas del mercado
+                </h3>
+                <p className="text-black/60 max-w-2xl mx-auto mb-8">
+                    Trabajamos todas las marcas y modelos con tecnologías LCD, LED, OLED, QLED, 4k UHD y Smart TV.
+                </p>
+                <MotionInfiniteImage />
+            </div>
         </SectionContainer>
     );
 };

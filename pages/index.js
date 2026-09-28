@@ -151,7 +151,7 @@ export default function Home({ places }) {
                                 Esto es lo que dicen nuestros clientes:
                             </PageTitle>
                             <div className="flex gap-1 items-center">
-                                <p className="text-4xl">{places.result.rating}</p>
+                                <p className="text-2xl">{places.result.rating}</p>
                                 {Array.from({ length: places.result.rating }).map((_, i) => (
                                     <Icon
                                         key={i}

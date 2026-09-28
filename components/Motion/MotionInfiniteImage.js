@@ -47,7 +47,7 @@ export const MotionInfiniteImage = () => {
                 {loopBrands.map((brand, i) => (
                     <div
                         key={`${brand.name}-${i}`}
-                        className="flex items-center justify-center h-12 w-28 shrink-0 mx-6 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+                        className="flex items-center justify-center h-12 w-28 shrink-0 mx-6 hover:grayscale-0 hover:opacity-100 transition-all"
                     >
                         <Image
                             src={`/brands/${brand.file}`}

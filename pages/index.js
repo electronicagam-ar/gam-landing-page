@@ -57,7 +57,7 @@ export default function Home({ places }) {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Nos especializamos en la reparación completa
+                                    Nos especializamos en la reparación integral
                                     de televisores, incluyendo la recuperación o
                                     sustitución de placas y pantallas, así como
                                     la carga de firmware en todas las marcas.
@@ -151,7 +151,7 @@ export default function Home({ places }) {
                                 Esto es lo que dicen nuestros clientes:
                             </PageTitle>
                             <div className="flex gap-1 items-center">
-                                <p className="text-2xl">{places.result.rating}</p>
+                                <p className="text-4xl">{places.result.rating}</p>
                                 {Array.from({ length: places.result.rating }).map((_, i) => (
                                     <Icon
                                         key={i}

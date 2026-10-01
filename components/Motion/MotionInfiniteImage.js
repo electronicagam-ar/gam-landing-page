@@ -14,7 +14,7 @@ const BRANDS = [
     { name: "TCL", file: "tcl.png" },
     { name: "BGH", file: "bgh.png" },
     { name: "Hisense", file: "hisense.png" },
-    { name: "Noblex", file: "noblex.png" },
+    { name: "Noblex", file: "noblexx.png" },
     { name: "Pioneer", file: "pioneer.png" },
     { name: "Sharp", file: "sharp.png" },
     { name: "Kanji", file: "kanji.png" },
